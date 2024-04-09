@@ -2,14 +2,14 @@ const todoForm = document.getElementById('todo-form');
 const todoList = document.getElementById('todo-list');
 
 todoForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Formani boshqa sahifaga yuborishni oldini oladi
+    event.preventDefault(); 
     
     const todoInput = document.getElementById('todo-input');
     const todoText = todoInput.value.trim();
 
     if (todoText !== '') {
         addTodoItem(todoText);
-        todoInput.value = ''; // Inputni tozalash
+        todoInput.value = '';
     }
 });
 
