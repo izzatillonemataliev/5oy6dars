@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Boshlang'ich o'lcham rang */
-  color: #333; /* Matn rangi */
+  background-color: #f0f0f0;
+  color: #333; 
 }
 .body{
   display: flex;
@@ -11,9 +11,9 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff; /* Foydalanuvchi interfeysi rangi */
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Harakatlanuvchi yo'nalish rangi */
+  background-color: #fff; 
+  border-radius: 8px;/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
@@ -64,7 +64,6 @@ ul {
   margin-left: 10px;
 }
 
-/* Dark mode stili */
 .dark-mode {
   background-color: #02187b;
   color: #fff;
