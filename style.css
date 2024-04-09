@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Boshlang'ich o'lcham rang */
+  color: #333; /* Matn rangi */
+}
+.body{
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Foydalanuvchi interfeysi rangi */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Harakatlanuvchi yo'nalish rangi */
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item button {
+  margin-left: 10px;
+}
+
+/* Dark mode stili */
+.dark-mode {
+  background-color: #02187b;
+  color: #fff;
+}
+
+.dark-mode input[type="text"],
+.dark-mode button {
+  color: #fff;
+}
